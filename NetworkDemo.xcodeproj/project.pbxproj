@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8CD3771682FEE100EDB60A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8CD3761682FEE100EDB60A /* UIKit.framework */; };
+		EA8CD3791682FEE100EDB60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8CD3781682FEE100EDB60A /* Foundation.framework */; };
+		EA8CD37B1682FEE100EDB60A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8CD37A1682FEE100EDB60A /* CoreGraphics.framework */; };
+		EA8CD3811682FEE100EDB60A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8CD37F1682FEE100EDB60A /* InfoPlist.strings */; };
+		EA8CD3831682FEE100EDB60A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8CD3821682FEE100EDB60A /* main.m */; };
+		EA8CD3871682FEE100EDB60A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8CD3861682FEE100EDB60A /* AppDelegate.m */; };
+		EA8CD38A1682FEE100EDB60A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8CD3881682FEE100EDB60A /* MainStoryboard.storyboard */; };
+		EA8CD38D1682FEE100EDB60A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8CD38C1682FEE100EDB60A /* MasterViewController.m */; };
+		EA8CD3901682FEE100EDB60A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8CD38F1682FEE100EDB60A /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA8CD3721682FEE100EDB60A /* NetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8CD3761682FEE100EDB60A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA8CD3781682FEE100EDB60A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8CD37A1682FEE100EDB60A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA8CD37E1682FEE100EDB60A /* NetworkDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkDemo-Info.plist"; sourceTree = "<group>"; };
+		EA8CD3801682FEE100EDB60A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8CD3821682FEE100EDB60A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8CD3841682FEE100EDB60A /* NetworkDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EA8CD3851682FEE100EDB60A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA8CD3861682FEE100EDB60A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA8CD3891682FEE100EDB60A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA8CD38B1682FEE100EDB60A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EA8CD38C1682FEE100EDB60A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EA8CD38E1682FEE100EDB60A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EA8CD38F1682FEE100EDB60A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8CD36F1682FEE100EDB60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8CD3771682FEE100EDB60A /* UIKit.framework in Frameworks */,
+				EA8CD3791682FEE100EDB60A /* Foundation.framework in Frameworks */,
+				EA8CD37B1682FEE100EDB60A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8CD3671682FEE000EDB60A = {
+			isa = PBXGroup;
+			children = (
+				EA8CD37C1682FEE100EDB60A /* NetworkDemo */,
+				EA8CD3751682FEE100EDB60A /* Frameworks */,
+				EA8CD3731682FEE100EDB60A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8CD3731682FEE100EDB60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CD3721682FEE100EDB60A /* NetworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8CD3751682FEE100EDB60A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CD3761682FEE100EDB60A /* UIKit.framework */,
+				EA8CD3781682FEE100EDB60A /* Foundation.framework */,
+				EA8CD37A1682FEE100EDB60A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8CD37C1682FEE100EDB60A /* NetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CD3851682FEE100EDB60A /* AppDelegate.h */,
+				EA8CD3861682FEE100EDB60A /* AppDelegate.m */,
+				EA8CD3881682FEE100EDB60A /* MainStoryboard.storyboard */,
+				EA8CD38B1682FEE100EDB60A /* MasterViewController.h */,
+				EA8CD38C1682FEE100EDB60A /* MasterViewController.m */,
+				EA8CD38E1682FEE100EDB60A /* DetailViewController.h */,
+				EA8CD38F1682FEE100EDB60A /* DetailViewController.m */,
+				EA8CD37D1682FEE100EDB60A /* Supporting Files */,
+			);
+			path = NetworkDemo;
+			sourceTree = "<group>";
+		};
+		EA8CD37D1682FEE100EDB60A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CD37E1682FEE100EDB60A /* NetworkDemo-Info.plist */,
+				EA8CD37F1682FEE100EDB60A /* InfoPlist.strings */,
+				EA8CD3821682FEE100EDB60A /* main.m */,
+				EA8CD3841682FEE100EDB60A /* NetworkDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8CD3711682FEE100EDB60A /* NetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8CD3931682FEE100EDB60A /* Build configuration list for PBXNativeTarget "NetworkDemo" */;
+			buildPhases = (
+				EA8CD36E1682FEE100EDB60A /* Sources */,
+				EA8CD36F1682FEE100EDB60A /* Frameworks */,
+				EA8CD3701682FEE100EDB60A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkDemo;
+			productName = NetworkDemo;
+			productReference = EA8CD3721682FEE100EDB60A /* NetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8CD3691682FEE100EDB60A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = codigo;
+			};
+			buildConfigurationList = EA8CD36C1682FEE100EDB60A /* Build configuration list for PBXProject "NetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA8CD3671682FEE000EDB60A;
+			productRefGroup = EA8CD3731682FEE100EDB60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8CD3711682FEE100EDB60A /* NetworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8CD3701682FEE100EDB60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8CD3811682FEE100EDB60A /* InfoPlist.strings in Resources */,
+				EA8CD38A1682FEE100EDB60A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8CD36E1682FEE100EDB60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8CD3831682FEE100EDB60A /* main.m in Sources */,
+				EA8CD3871682FEE100EDB60A /* AppDelegate.m in Sources */,
+				EA8CD38D1682FEE100EDB60A /* MasterViewController.m in Sources */,
+				EA8CD3901682FEE100EDB60A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA8CD37F1682FEE100EDB60A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8CD3801682FEE100EDB60A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA8CD3881682FEE100EDB60A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8CD3891682FEE100EDB60A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8CD3911682FEE100EDB60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA8CD3921682FEE100EDB60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8CD3941682FEE100EDB60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkDemo/NetworkDemo-Prefix.pch";
+				INFOPLIST_FILE = "NetworkDemo/NetworkDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA8CD3951682FEE100EDB60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkDemo/NetworkDemo-Prefix.pch";
+				INFOPLIST_FILE = "NetworkDemo/NetworkDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8CD36C1682FEE100EDB60A /* Build configuration list for PBXProject "NetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8CD3911682FEE100EDB60A /* Debug */,
+				EA8CD3921682FEE100EDB60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8CD3931682FEE100EDB60A /* Build configuration list for PBXNativeTarget "NetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8CD3941682FEE100EDB60A /* Debug */,
+				EA8CD3951682FEE100EDB60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8CD3691682FEE100EDB60A /* Project object */;
+}
